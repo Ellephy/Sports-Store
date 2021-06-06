@@ -1,20 +1,21 @@
 # Personal React project
 
-This project was inspired by `Pro React 16` book.
-
-## Personal Advices
-
-Use `apollo-client` instead of `apollo-react`.
-
-And, it would be better to use `yarn` than `npm` whenver you are stuck with version conflicts such as webpack.
+This project was based on `Pro React 16` book by `Adam Freeman`.
 
 ## Docker Image
 
-You can pull docker image of this project  `docker pull ellephy/react-apps:sportsstore`. 
+You can pull docker image of this project `docker pull ellephy/react-apps:sportsstore`.
 And run `docker run -p 80:80 ellephy/react-apps:sportsstore`.
 Don't forget to install docker first, guy. 😃
 
+## Personal Advices
+
+In case of implementing the project from scratch, use `apollo-client` instead of `apollo-react`.
+
+And, it would be better to use `yarn` than `npm` whenver you are stuck with version conflicts such as webpack.
+
 ## Sample User Screens
+
 ![](/assets/images/User_1.png)
 
 **When you press `Add To Cart`**
@@ -27,6 +28,7 @@ Don't forget to install docker first, guy. 😃
 ![](/assets/images/User_4.png)
 
 ## Sample Admin Screens
+
 **Type `secret` for password field**
 ![](/assets/images/Admin_1.png)
 
@@ -35,4 +37,3 @@ Don't forget to install docker first, guy. 😃
 
 **When you press `Products`**
 ![](/assets/images/Admin_3.png)
-
